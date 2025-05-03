@@ -6,8 +6,9 @@ baseurl: ""
 url: "https://yourusername.github.io"  # Replace with your GitHub username
 github_username: yourusername  # Replace with your GitHub username
 
-theme: "minimal-mistakes-jekyll"
-
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
 # Social Media
 twitter_username: yourhandle
 linkedin_username: yourname
